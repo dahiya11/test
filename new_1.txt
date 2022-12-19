@@ -1,0 +1,7 @@
+select impression,cost,click,conversion,day,b.wtd0
+from table1
+left join
+(select datediff ,adset_id case when datediff = 0 then sum(playtimemins)  as wtd0
+group by datediff,adset_id) b
+on date
+and adset_id
