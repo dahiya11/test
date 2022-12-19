@@ -14,4 +14,4 @@ git commit -m <file name>			(file finally branch me add ho jayegi)
 git push -u origin <branch name>		(Agar me new branch banata hu toh github per add krne ke leye push krte hai)
 git pull origin <branch name>			(if I edit the file on github then want to pull the data on local)
 
-
+the pull commands works done!
