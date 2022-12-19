@@ -1,0 +1,9 @@
+API design:
+
+
+getAdmins (string groupID)
+
+there are two possibilties 1.error group does not exist
+2. error group is Deleted
+
+RESPONSE:- list<Admin> admins
